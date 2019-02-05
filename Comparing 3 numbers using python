@@ -1,0 +1,15 @@
+def comp(a,b,c):
+	if a>=b :
+    		if a>=c :
+        		return (a)
+	elif b>=a :
+		if b>=c :
+			return (b)
+	if a<=c :
+		if b<=c :
+			return (c)
+def display(x):
+	print(x)
+
+x=comp(9,10,10)
+display(x)
